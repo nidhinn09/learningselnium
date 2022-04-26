@@ -29,7 +29,6 @@ public class DragandDrop {
 		WebElement amountDrop = driver.findElement(By.xpath("(//*[@class='placeholder'])[2]"));
 		action.dragAndDrop(amountDrag, amountDrop).build().perform();
 		//driver.quit();
-		
 
 	}
 
